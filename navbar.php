@@ -1,9 +1,11 @@
 <body>
 	<div class="navbar">
 		<img class="profile-image" src="img/profile.png">
-		<p class="nav-about nav-link">about</p>
-		<p class="nav-projects nav-link">projects</p>
-		<p class="nav-contact nav-link">contact</p>
+		<p class="nav-about nav-link">About Me</p>
+		<p class="nav-projects nav-link">Projects</p>
+		<p class="nav-contact nav-link">Contact</p>
+
+		<?php include 'footer.php'; ?>
 	</div>
 
 	<script type="text/javascript">
