@@ -1,23 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Footer</title>
-</head>
 <body>
 	<div class="footer">
-		<!-- <div class="footer-icons">
-			<img src="img/icon_github.png" id="icon-github" class="icon">
-			<img src="img/icon_linkedin.png" id="icon-linkedin" class="icon">
-		</div> -->
+		<div class="end-of-the-road">
+			<br>
+			<a href="https://forms.gle/L4W4pqEyJwoDgVgAA" target="_blank">Report a bug</a>
+			<br>
+			<a href="https://forms.gle/MkvthJ39FZz66xGz8" target="_blank">General feedback</a>
+			<br>
+			<br>
+		</div>
 	</div>
-
-	<script type="text/javascript">
-		document.querySelector("#icon-github").addEventListener("click", function(){
-			window.open("https://www.github.com/timothylew", "_blank");
-		});
-		document.querySelector("#icon-linkedin").addEventListener("click", function() {
-			window.open("https://www.linkedin.com/in/timothylew", "_blank");
-		});
-	</script>
 </body>
 </html>

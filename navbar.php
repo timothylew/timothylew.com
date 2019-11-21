@@ -4,8 +4,6 @@
 		<p class="nav-about nav-link">About Me</p>
 		<p class="nav-projects nav-link">Projects</p>
 		<p class="nav-contact nav-link">Contact</p>
-
-		<?php include 'footer.php'; ?>
 	</div>
 
 	<script type="text/javascript">
