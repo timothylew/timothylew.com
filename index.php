@@ -21,7 +21,7 @@
 		<div class="content">
 			<div class="main">
 				<h1>Timothy Lew</h1>
-				<p>Software Engineer &bull; Product Management</p>
+				<p>Product Management &bull; Software Engineering</p>
 			
 				<div>
 					<img src="img/icon_linkedin.png" id="icon-linkedin" class="icon">
@@ -32,7 +32,7 @@
 				<p class="paragraph">As an aspiring product manager, I love building the <em>right things</em> for the <em>right people</em>, 
 				whether that's a mobile or web app, an online ad-campaign, or just some cool Slack emojis.  If 
 				you'd like to work on something with me, chat over boba, or throw a Quaffle together 
-				(fun fact: I played competitive Quidditch in college!), feel free to <a href="contact.php">contact me</a>!</p>
+				(fun fact: I played competitive Quidditch in college!), feel free to get in touch!</p>
 
 				<button id="view-resume">View Resume</button>
 
