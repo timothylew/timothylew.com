@@ -1,8 +1,3 @@
-<?php
-	session_start();
-	$_SESSION['current_page'] = "index.php";
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,27 +22,27 @@
   		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="index.php">About <span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="/">About <span class="sr-only">(current)</span></a>
 				</li> 
 				<li class="nav-item">
 					<a class="nav-link" href="experience.html">Experience</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="projects.php">Projects</a>
+					<a class="nav-link" href="projects.html">Projects</a>
 				</li>
 			</ul>
 			<button class="btn btn-outline resume-navbar my-2 my-sm-0" type="button">Resume.pdf</button>
 		</div>
 	</nav>
-	<div class="container-fluid pl-2 pr-2">
+	<div class="container-fluid pl-4 pr-4">
 	<div class="alert alert-info alert-dismissible fade show mt-4" role="alert">
   		<strong>Mark your calendars and vote on Tuesday, November 3rd! <a href="https://www.usvotefoundation.org/" target="_blank">Click here</a> to register or learn more.</strong>
   		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
     	<span aria-hidden="true">&times;</span>
   		</button>
 	</div>
-		<div class ="row mt-4 ml-3 mr-3">
-			<div class="jumbotron">
+		<div class ="row mt-4 ml-0 mr-0">
+			<div class="jumbotron pl-4 pr-4">
 				<img class="img-fluid col-3 profile-image float-left" src="img/profile.png">
 				<div class="col-9 float-right">
 				<h1 class="display-4"><b>Timothy Lew</b></h1>

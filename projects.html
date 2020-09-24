@@ -1,8 +1,3 @@
-<?php
-	session_start();
-	$_SESSION['current_page'] = "projects.php";
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,23 +20,23 @@
   		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item">
-					<a class="nav-link" href="index.php">About</a>
+					<a class="nav-link" href="/">About</a>
 				</li> 
 				<li class="nav-item">
 					<a class="nav-link" href="experience.html">Experience</a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="projects.php">Projects <span class="sr-only">(current)</span></a>
+					<a class="nav-link" href="projects.html">Projects <span class="sr-only">(current)</span></a>
 				</li>
 			</ul>
 			<button class="btn btn-outline resume-navbar my-2 my-sm-0" type="button">Resume.pdf</button>
 		</div>
 	</nav>
-	<div class="fluid-container">
+	<div class="fluid-container pl-2 pr-2">
 		<div class="projects content">
 			<div class="main">
 				<h1>Projects</h1>
-				<p>Here are some of the cool projects I've worked on!  Feel free to look around on my <a href="https://www.github.com/timothylew" target="_blank">Github</a> as well.</p>
+				<p>Here are some of the projects I've worked on in the past at hackathons, for school, for work, or just for fun!</p>
 				<div class = "row">
 					<div class="card col-3" style="width: 25rem;">
 						<img class="card-img-top" src="img/uber.png" alt="Card image cap">
