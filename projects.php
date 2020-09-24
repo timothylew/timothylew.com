@@ -16,27 +16,34 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  		<a class="navbar-brand" href="#">Timothy Lew</a>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<!-- <img src="img/profile.png" width="30" height="30" class="d-inline-block align-top" alt=""> -->
+  		<a class="navbar-brand" href="/"><b>Timothy Lew</b></a>
   		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     		<span class="navbar-toggler-icon"></span>
   		</button>
   		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-   		<div class="navbar-nav">
-     		<a class="nav-item nav-link" href="index.php">About</a>
-			<a class="nav-item nav-link" href="#">Experience</a>
-      		<a class="nav-item nav-link active" href="projects.php">Projects <span class="sr-only">(current)</span></a>
-	  		<button class="btn btn-outline-success my-2 my-sm-0 resume" type="button">Download Resume</button>
-    </div>
-  </div>
-</nav>
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.php">About</a>
+				</li> 
+				<li class="nav-item">
+					<a class="nav-link" href="experience.html">Experience</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="projects.php">Projects <span class="sr-only">(current)</span></a>
+				</li>
+			</ul>
+			<button class="btn btn-outline resume-navbar my-2 my-sm-0" type="button">Resume.pdf</button>
+		</div>
+	</nav>
 	<div class="fluid-container">
 		<div class="projects content">
 			<div class="main">
 				<h1>Projects</h1>
 				<p>Here are some of the cool projects I've worked on!  Feel free to look around on my <a href="https://www.github.com/timothylew" target="_blank">Github</a> as well.</p>
 				<div class = "row">
-					<div class="card col-sm" style="width: 25rem;">
+					<div class="card col-3" style="width: 25rem;">
 						<img class="card-img-top" src="img/uber.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Uber Bikes</h5>
@@ -44,7 +51,7 @@
 							<a href="http://uberbikes.timothylew.com" class="btn btn-primary">Read full article</a>
 						</div>
 					</div>
-					<div class="card col-sm" style="width: 25rem;">
+					<div class="card col-3" style="width: 25rem;">
 						<img class="card-img-top" src="img/lucidity.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Lucidity</h5>
@@ -52,7 +59,7 @@
 							<a href="https://github.com/timothylew/lucidity" class="btn btn-primary">View source code</a>
 						</div>
 					</div>
-					<div class="card col-sm" style="width: 25rem;">
+					<div class="card col-3" style="width: 25rem;">
 						<img class="card-img-top" src="img/trojanmotors.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Trojan Motors</h5>
@@ -60,7 +67,7 @@
 							<a href="#" class="btn btn-secondary disabled">Demo discontinued</a>
 						</div>
 					</div>
-					<div class="card col-sm" style="width: 25rem;">
+					<div class="card col-3" style="width: 25rem;">
 						<img class="card-img-top" src="img/CP.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">CP Tutoring App</h5>
@@ -68,7 +75,7 @@
 							<a href="https://github.com/timothylew/CP_Android" class="btn btn-primary">View demo and source code</a>
 						</div>
 					</div>
-					<div class="card col-sm" style="width: 25rem;">
+					<div class="card col-3" style="width: 25rem;">
 						<img class="card-img-top" src="img/VC.png" alt="Card image cap">
 						<div class="card-body">
 							<h5 class="card-title">Fantasy VC</h5>
