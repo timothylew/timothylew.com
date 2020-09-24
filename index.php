@@ -17,51 +17,55 @@
 </head>
 <body>
 	<div class="error"></div>
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<!-- <img src="img/profile.png" width="30" height="30" class="d-inline-block align-top" alt=""> -->
   		<a class="navbar-brand" href="#">Timothy Lew</a>
   		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     		<span class="navbar-toggler-icon"></span>
   		</button>
   		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
    		<div class="navbar-nav">
-     		<a class="nav-item nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
+     		<a class="nav-item nav-link active" href="index.php">About <span class="sr-only">(current)</span></a>
 			<a class="nav-item nav-link" href="#">Experience</a>
       		<a class="nav-item nav-link" href="projects.php">Projects</a>
-	  		<button class="btn btn-outline-success my-2 my-sm-0 resume" type="button">Download Resume</button>
+	  		<button class="btn btn-outline mr-sm-0 my-2 my-lg-0 resume-navbar" type="button">Resume.pdf</button>
     </div>
   </div>
 </nav>
-	<div class="container-fluid">
-
-		<div class ="row">
+	<div class="container-fluid pl-2 pr-2">
+	<div class="alert alert-info alert-dismissible fade show mt-4" role="alert">
+  		<strong>Mark your calendars and vote on Tuesday, November 3rd! <a href="https://www.usvotefoundation.org/" target="_blank">Click here</a> to register or learn more.</strong>
+  		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    	<span aria-hidden="true">&times;</span>
+  		</button>
+	</div>
+		<div class ="row mt-4">
 			<div class="jumbotron">
+				<img class="img-fluid col-3 profile-image float-left" src="img/profile.png">
+				<div class="col-9 float-right">
 				<h1 class="display-4">Timothy Lew</h1>
   				<p class="lead">Product Management &bull; Software Engineering</p>
   				<hr class="my-4">
   				<p>Hey there! As an aspiring product manager, I love building the <em>right things</em> for the <em>right people</em>, 
 				whether that's a mobile or web app, an online ad-campaign, or just some cool Slack emojis.  If 
 				you'd like to work on something with me, chat over boba, or throw a Quaffle together 
-				(fun fact: I played competitive Quidditch in college!), feel free to get in touch</p>
+				(fun fact: I played competitive Quidditch in college!), feel free to get in touch.</p>
   				<p class="lead">
-   				<button class="btn btn-primary btn-lg resume">View resume</button>
+   				<button class="resume btn btn-primary btn-lg" type="button">View resume</button>
   				</p>
+				  </div>
 			</div>
 		</div>
 			
-				<div class="social-icons">
+				<div class="row social-icons">
 					<img src="img/icon_linkedin.png" id="icon-linkedin" class="icon">
 					<img src="img/icon_twitter.png" id="icon-twitter" class="icon">
 					<img src="img/icon_github.png" id="icon-github" class="icon">
 				</div>
 
-				<div class="alert alert-warning alert-dismissible fade show" role="alert">
-  		<strong>Mark your calendars and vote on Tuesday, November 3rd! <a href="https://www.usvotefoundation.org/" target="_blank">Click here</a> to register or learn more.</strong>
-  		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    	<span aria-hidden="true">&times;</span>
-  		</button>
-	</div>
 
-				<p class="paragraph">Recent updates and positions:</p>
+				<p class="paragraph experience">Recent updates and positions:</p>
 				<ul>
 					<li>Graduated from Product School, Product Management Certificate</li>
 					<li>Course Hero, Software Engineer II</li>
@@ -79,6 +83,10 @@
 
 	<script type="text/javascript">
 		document.querySelector(".resume").addEventListener("click", function() {
+			window.open("docs/resume.pdf", "_blank");
+		});
+
+		document.querySelector(".resume-navbar").addEventListener("click", function() {
 			window.open("docs/resume.pdf", "_blank");
 		});
 

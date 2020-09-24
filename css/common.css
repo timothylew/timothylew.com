@@ -94,15 +94,15 @@ button:hover {
 	color: gray;
 
 	/* Make footer stick to bottom of content */
-	position: absolute;
+	/* position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 6rem;
+	height: 6rem; */
 }
 
 .footer .end-of-the-road {
-	background-color: rgb(216, 212, 212);
-	padding-left: 2%;
+	/* background-color: rgb(216, 212, 212);
+	padding-left: 2%; */
 }
 
 .footer a {
@@ -133,9 +133,9 @@ button:hover {
 }
 
 .profile-image {
-	width: 80%; 
 	border-radius: 50%;
-	margin-top: 20px;
+	max-height: 300px;
+	width: auto;
 }
 
 .project-item {

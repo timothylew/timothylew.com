@@ -23,9 +23,9 @@
   		</button>
   		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
    		<div class="navbar-nav">
-     		<a class="nav-item nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
+     		<a class="nav-item nav-link" href="index.php">About</a>
 			<a class="nav-item nav-link" href="#">Experience</a>
-      		<a class="nav-item nav-link" href="projects.php">Projects</a>
+      		<a class="nav-item nav-link active" href="projects.php">Projects <span class="sr-only">(current)</span></a>
 	  		<button class="btn btn-outline-success my-2 my-sm-0 resume" type="button">Download Resume</button>
     </div>
   </div>
