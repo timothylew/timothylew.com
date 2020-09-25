@@ -11,10 +11,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
-	<div class="error"></div>
-	
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<!-- <img src="img/profile.png" width="30" height="30" class="d-inline-block align-top" alt=""> -->
   		<a class="navbar-brand" href="/"><b>Timothy Lew</b></a>
   		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     		<span class="navbar-toggler-icon"></span>
@@ -34,34 +31,49 @@
 			<button class="btn btn-outline resume-navbar my-2 my-sm-0" type="button">Resume.pdf</button>
 		</div>
 	</nav>
+	
 	<div class="container-fluid pl-4 pr-4">
-	<div class="alert alert-info alert-dismissible fade show mt-4" role="alert">
-  		<strong>Mark your calendars and vote on Tuesday, November 3rd! <a href="https://www.usvotefoundation.org/" target="_blank">Click here</a> to register or learn more.</strong>
-  		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    	<span aria-hidden="true">&times;</span>
-  		</button>
-	</div>
+		<!-- <div class="alert alert-info alert-dismissible fade show mt-4" role="alert">
+			<strong>Mark your calendars and vote on Tuesday, November 3rd! <a href="https://www.usvotefoundation.org/" target="_blank">Click here</a> to register or learn more.</strong>
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+			</button>
+		</div> -->
+		<div class="alert alert-warning alert-dismissible fade show mt-4" role="alert">
+			<strong>This website was recently redesigned! I am actively working on a few more updates, but if you have any feedback or encounter any major issues, please <a href="https://www.usvotefoundation.org/" target="_blank">report them here.</a></strong>
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
 		<div class ="row mt-4 ml-0 mr-0">
 			<div class="jumbotron pl-4 pr-4">
-				<img class="img-fluid col-3 profile-image float-left" src="img/profile.png">
+				<div class="row col-3 float-left mx-auto">
+					<img class="img-fluid profile-image mx-auto" src="img/profile.png">
+				</div>
 				<div class="col-9 float-right">
-				<h1 class="display-4"><b>Timothy Lew</b></h1>
-  				<p class="lead">Product Management &bull; Software Engineering</p>
-  				<hr class="my-4">
-  				<p>Hey there! As an aspiring product manager, I love building the <em>right things</em> for the <em>right people</em>, 
-				whether that's a mobile or web app, an online ad-campaign, or just some cool Slack emojis.  If 
-				you'd like to work on something with me, chat over boba, or throw a Quaffle together 
-				(fun fact: I played competitive Quidditch in college!), feel free to get in touch.</p>
-  				<p class="lead">
-   				<button class="resume btn btn-primary btn-lg" type="button">View resume</button>
-				  </p>
-				  <div class=" social-icons my-4 pt-1">
-				  <hr class="my-4">
-			<img src="img/icon_linkedin.png" id="icon-linkedin" class="icon">
-			<img src="img/icon_twitter.png" id="icon-twitter" class="icon">
-			<img src="img/icon_github.png" id="icon-github" class="icon">
-		</div>
-				  </div>
+					<h1 class="display-4"><b>Timothy Lew</b></h1>
+					<p class="lead">Product Management &bull; Software Engineering</p>
+					<hr class="my-4">
+					<p>Hey there! I recently graduated from USC with a Bachelor's in Computer Science and Business Administration (2018). Since then,
+					I've been a full time software engineer building some cool new things over at Course Hero. After taking on some product responsibilites on my team,
+					I'm now fully focused on transitioning to my dream career - product management. I love building the <em>right things</em> for the <em>right people</em>, 
+					whether that's a mobile or web app, an online ad-campaign, or just some cool Slack emojis.  If 
+					you'd like to work on something with me, chat over boba, or throw a Quaffle together 
+					(fun fact: I played competitive Quidditch in college!), feel free to get in touch.</p>
+					<p class="lead">
+						<button class="resume btn btn-primary btn-lg" type="button">Resume - PDF</button>
+						<button class="btn btn-secondary btn-lg" type="button">Schedule a Call</button>
+					</p>
+					<hr class="my-4">
+					<div class="my-4 pt-1">
+						<p>me@timothylew.com</p>
+					</div>
+					<div class=" social-icons my-4 pt-1">
+						<img src="img/icon_linkedin.png" id="icon-linkedin" class="icon">
+						<img src="img/icon_twitter.png" id="icon-twitter" class="icon">
+						<img src="img/icon_github.png" id="icon-github" class="icon">
+					</div>
+				</div>
 			</div>
 		</div>
 			
@@ -71,6 +83,9 @@
 
 
 	<script type="text/javascript">
+
+		console.log("Hi, whatcha looking for? :)")
+
 		document.querySelector(".resume").addEventListener("click", function() {
 			window.open("docs/resume.pdf", "_blank");
 		});
