@@ -59,15 +59,6 @@ button:hover {
 	color: white;
 }*/
 
-.navbar {
-	/* width: 20%;
-	height: 100vh;
-	text-align: center;
-	/* background-color: #6F2232; */
-	background-color: #6D94B3;
-	/* position: fixed;  */
-}
-
 .footer {
 	border-top: darkgray solid 1px;
 	/* min-height: 100px; */
@@ -104,28 +95,16 @@ button:hover {
 	cursor: pointer;
 }
 
-.nav-link {
-	color: white;
-}
-
-.nav-link:hover {
-	cursor: pointer;
-}
-
 .profile-image {
 	border-radius: 50%;
 	max-height: 300px;
 	width: auto;
 }
 
-.selected-nav-item {
-	font-weight: bold;
-}
-
 .calendly-badge-content {
 	font-family: 'Poppins', sans-serif !important;
 }
-
-.card {
-	max-width: 20rem;
-}
+/* 
+.col {
+	width: 30%;
+} */
