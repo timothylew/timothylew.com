@@ -9,6 +9,11 @@ a {
 	color: #276EF1;
 }
 
+.music-description {
+	color: #F5F5F5;
+	max-width: 75%;
+}
+
 button {
 	/* height: 40px;
 	border-radius: 0px;
