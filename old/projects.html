@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projects</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,500,500i&display=swap" rel="stylesheet">
+	<link href="css/common.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="img/favicon.png"/>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  		<a class="navbar-brand" href="/"><b>Timothy Lew</b></a>
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="/">About</a>
+				</li> 
+				<li class="nav-item">
+					<a class="nav-link" href="experience.html">Experience</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="projects.html">Projects <span class="sr-only">(current)</span></a>
+				</li>
+			</ul>
+			<button class="btn btn-outline resume-navbar my-2 my-sm-0" type="button">Resume.pdf</button>
+		</div>
+	</nav>
+	
+	<div class="fluid-container pl-3 pr-3 pt-4">
+		<div class="row ml-0">
+			<h1>Projects</h1>
+		</div>
+		<div class="row ml-0">
+			<p>Here are some of the projects I've worked on in the past at hackathons, for school, for work, or just for fun!</p>
+		</div>
+		<div class="row row-cols-xs-1 row-cols-md-2 row-cols-lg-3 mt-4">
+			<div class="col">
+				<div class="card h-100 mx-auto">
+					<img class="card-img-top img-fluid" src="img/uber.png" alt="Uber Bikes" style="width: 50rem;">
+					<div class="card-body">
+						<h5 class="card-title">Uber Bikes</h5>
+						<p class="card-text">While earning my product management certificate at <a href="https://www.productschool.com" target="_blank">Product School</a>, I worked on creating a new feature for Uber.  I analyzed Uber's strategy, found and validated an opportunity based on customer pain points, designed a solution and tested its usability, and pitched it to judges.</p>
+						<a href="http://uberbikes.timothylew.com" class="btn btn-primary">Read writeup</a>
+					</div>
+					<div class="card-footer text-muted">
+						Product Management
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card h-100 mx-auto">
+					<img class="card-img-top img-fluid" src="img/lucidity.png" alt="Lucidity">
+					<div class="card-body">
+						<h5 class="card-title">Lucidity</h5>
+						<p class="card-text">Lucidity is an online platform that facilitates event management at musical events.  The audience can enter a given code and request songs using the Spotify API.  The DJ or musician will be able to see all requests for an event and modify their sets accordingly.</p>
+						<a href="https://github.com/timothylew/lucidity" class="btn btn-primary">View on Github</a>
+					</div>
+					<div class="card-footer text-muted">
+						Engineering
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card h-100 mx-auto">
+					<img class="card-img-top img-fluid" src="img/trojanmotors.png" alt="Trojan Motors">
+					<div class="card-body">
+						<h5 class="card-title">Trojan Motors</h5>
+						<p class="card-text">Trojan Motors is a car factory simulation game designed to test students' communication and decision making skills. This web application is currently being run and used in the USC Marshall Experiential Learning Center.</p>
+						<a href="#" class="btn btn-secondary disabled">Demo Unavailable</a>
+					</div>
+					<div class="card-footer text-muted">
+						Product Management, Engineering
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card h-100 mx-auto">
+					<img class="card-img-top img-fluid" src="img/CP.png" alt="CP Tutoring App">
+					<div class="card-body">
+						<h5 class="card-title">CP Tutoring App</h5>
+						<p class="card-text">CP Tutoring is an Android application designed to match students in need of affordable tutors with those who are willing to provide those services at more reasonable rates.</p>
+						<a href="https://github.com/timothylew/CP_Android" class="btn btn-primary">View on Github</a>
+					</div>
+					<div class="card-footer text-muted">
+						Product Management, Engineering
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card h-100 mx-auto">
+					<img class="card-img-top img-fluid" src="img/VC.png" alt="Fantasy VC">
+					<div class="card-body">
+						<h5 class="card-title">Fantasy VC</h5>
+						<p class="card-text">Fantasy VC is a Java desktop game that allows players to "draft" startup companies similar to how you draft in football leagues.  The game then simulates events that increase or decrease those companies' values.</p>
+						<a href="https://github.com/timothylew/FantasyVC" class="btn btn-primary">View on Github</a>
+					</div>
+					<div class="card-footer text-muted">
+						Engineering
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+	
+	<script type="text/javascript">
+		document.querySelector(".resume-navbar").addEventListener("click", function() {
+			window.open("docs/resume.pdf", "_blank");
+		});
+	</script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+	<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+	<script type="text/javascript">Calendly.initBadgeWidget({ url: 'https://calendly.com/timothylew/30', text: 'Schedule a Call', color: '#276EF1', textColor: '#ffffff', branding: false });</script>
+</body>
+</html>
